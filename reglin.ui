@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegLin</class>
+ <widget class="QMainWindow" name="RegLin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>678</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RegLin</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="sale">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>220</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="Tablap">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>253</width>
+      <height>235</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Punto 1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 7</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="Tablat">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>256</width>
+      <height>235</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Punto 1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 3 </string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 5 </string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Punto 7</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Disp. puntos</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Disp. punto recta</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="carga">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>40</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cargar Puntos</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textores">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>256</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ingrese los puntos conocidos</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="limpia">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>160</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Limpiar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Resultados:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inicia">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>100</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Iniciar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>701</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>sale</sender>
+   <signal>clicked()</signal>
+   <receiver>RegLin</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>481</x>
+     <y>268</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>549</x>
+     <y>265</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
